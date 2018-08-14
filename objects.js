@@ -1,8 +1,8 @@
 // creating an Object
-var playlist = {artist: "artistName", song:"songTitle"};
+var playlist = {artistName: "", songTitle:""};
 function updatePlaylist(playlist, artistName, songTitle){
-  playlist.artistName, playlist.artistName;
-  return playlist;
+  return playlist.artistName, playlist.songTitle;
+  
 }
 function removeFromPlaylist(playlist, artistName){
   delete playlist.artistName;
