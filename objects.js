@@ -1,9 +1,9 @@
 // creating an Object
 var playlist = {'Micheal Jackson': 'Thriller',
-                'Whitney Houston': 'The Bodygourd'
-};
-function updatePlaylist(playlist, artist, song){
-  return playlist.artist, playlist.song;
+                'Whitney Houston': 'The Bodyguard'};
+
+function updatePlaylist(playlist, artistName, songTitle){
+  return playlist[artistName]:songTitle;
   
 }
 function removeFromPlaylist(playlist, artist){
