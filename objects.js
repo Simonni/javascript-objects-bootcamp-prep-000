@@ -1,5 +1,5 @@
 // creating an Object
-var playlist = {'Micheal Jackson': 'Thriller', 'Whitney Houtson': 'The Bodyguard'};
+var playlist = {artist: song, 'Whitney Houtson': 'The Bodyguard'};
 function updatePlaylist(playlist, artist, song){
   return playlist.artist, playlist.song;
   
