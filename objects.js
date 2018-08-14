@@ -1,6 +1,6 @@
 // creating an Object
-var playlist = {artistName: "", songTitle:""};
-function updatePlaylist(playlist, artistName, songTitle){
+var playlist = {artistName: "name", songTitle:"title"};
+function updatePlaylist(playlist, name, title){
   return playlist.artistName, playlist.songTitle;
   
 }
